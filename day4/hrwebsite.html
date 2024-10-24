@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    
+    }
+        .list-items
+        {
+            display: inline-block;
+            margin-right: 50px;
+            padding: 20px;
+            color: white;
+            
+        }
+        header,footer
+        {
+            background-color: rgb(14, 114, 150);
+            color: aliceblue;
+        }
+
+        #employee-registeration{
+            background: #000;
+        }
+
+        h2{
+            background-color: aqua;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <header >
+        <center>
+            <h1>Welcome to Company HR Portal</h1>
+        <nav>
+            
+                <ul>
+                    <a href="#employee-registeration" ><li class="list-items">Employee Registeration</li></a>
+                    <a href="#employee-list"><li class="list-items">List of Employees</li></a>
+                    <a href="#contact-us"><li class="list-items">Contact Us</li></a>
+                    
+                </ul>
+          
+            
+        </nav>
+        </center>
+        
+    </header>
+    <img src="https://plus.unsplash.com/premium_photo-1681487178876-a1156952ec60?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b2ZmaWNlc3xlbnwwfHwwfHx8MA%3D%3D" alt="Office Image" height="600" width="1500">
+    <section id="employee-registeration">
+        <form action="">
+            <center>
+                <h1>Employee Registeration Form</h1>
+                <h2>Personal Details</h2>
+                <label for="name" >Full Name</label>
+                <input type="text" id="name"> <br> <br>
+                <label for="lname" >Last Name</label>
+                <input type="text" id="lname"><br><br>
+                <label for="email" >Email ID</label>
+                <input type="email" id="email"><br><br>
+                <label for="no" >Phone Number</label>
+                <input type="tel" id="no"><br><br>
+                <label for="dob" >Date of Birth</label>
+                <input type="date" id="dob"><br><br>
+                <label for="gen" >Gender</label>
+                <input type="radio" id="gen" name="gender" value="male"> Male
+                <input type="radio" id="gen" name="gender" value="female"> Female<br><br>
+                <label for="position" >Position</label>
+                <input type="text" id="position"><br><br>
+                <label for="dept">Department</label>
+                <select name="deptart" id="dept">
+                    <option value="hr">HR</option>
+                    <option value="it">IT</option>
+                    <option value="sales">Sales</option>
+                </select> <br><br>
+                <label for="add" >Address</label>
+                <textarea name="address" id="add" rows="3" ></textarea><br><br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </center>
+        </form>
+    </section>
+
+
+
+    <section id="employee-list">
+        <h3>Employee List</h3>
+
+        <table border="1" cellspacing="0" cellpadding="5" align="center">
+            <caption>Table: Employee Details</caption>
+            <tr>
+                <th>FNAME</th>
+                <th>EMAIL</th>
+                <th>PHNO</th>
+                <th>POSITION</th>
+                <th>Department</th>
+            </tr>
+            <tr>
+                <td>Chachal</td>
+                <td>chanchal@123</td>
+                <td>1234567890</td>
+                <td>ABC</td>
+                <td>HR</td>
+            
+            </tr>
+            <tr>
+                <td>Yogini</td>
+                <td>yogini@123</td>
+                <td>098765432</td>
+                <td>XYZ</td>
+                <td>Sales</td>
+            </tr>
+            <tr>
+                <td>Rasika</td>
+                <td>rasika@123</td>
+                <td>4678097612</td>
+                <td>PQR</td>
+                <td>IT</td>
+            </tr>
+        
+            </table >
+    </section>
+
+
+
+    <section id="contact-us">
+        <h3>Contact US</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15133.141408339388!2d73.83014335!3d18.51600285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1728046388179!5m2!1sen!2sin" width="1500" height="600" style="border:0;" allowfullscreen="100%" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer style="padding: 20px;">
+        copyright reserved &#169; 2024
+    </footer>
+</body>
+</html>
